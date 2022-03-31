@@ -17,7 +17,7 @@ module.exports = plugin(
       },
 
       [`body`]: {
-        fontFamily: `"Inter", sans-serif`,
+        fontFamily: `"Roboto Mono", sans-serif`,
       },
 
       [`.navbarTogglerActive > span:nth-child(1)`]: {
@@ -157,7 +157,7 @@ module.exports = plugin(
         colors: {
           dark: "#090E34",
           "dark-700": "#090e34b3",
-          primary: "#3056D3",
+          primary: "#0c7187",
           secondary: "#13C296",
           "body-color": "#637381",
           warning: "#F9C107",
@@ -181,6 +181,22 @@ module.exports = plugin(
           card: "0px 1px 3px rgba(0, 0, 0, 0.12)",
           "card-2": "0px 1px 10px -2px rgba(0, 0, 0, 0.15)",
         },
+
+        fontSize: {
+            'xs': '.875rem',
+            'tiny': '.875rem',
+            'sm': '1rem',
+            'base': '1.125rem',
+            'lg': '1.25rem',
+            'xl': '1.5rem',
+            '2xl': '1.875rem',
+            '3xl': '2.25rem',
+            '4xl': '3rem',
+            '5xl': '4rem',
+            '6xl': '5rem',
+            '7xl': '6rem',
+        },
+
       },
     },
   }
