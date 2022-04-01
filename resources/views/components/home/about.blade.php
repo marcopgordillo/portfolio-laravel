@@ -10,7 +10,6 @@
                                 src="{{ url('/img/me1.png') }}"
                                 alt=""
                                 class="rounded-2xl w-full"
-                                loading="lazy"
                             />
                         </div>
                         <div class="py-3 sm:py-4">
@@ -18,7 +17,6 @@
                                 src="{{ url('/img/me3.png') }}"
                                 alt=""
                                 class="rounded-2xl w-full"
-                                loading="lazy"
                             />
                         </div>
                     </div>
@@ -28,7 +26,6 @@
                                 src="{{ url('/img/me2.png') }}"
                                 alt=""
                                 class="rounded-2xl w-full"
-                                loading="lazy"
                             />
                             <x-about-dots></x-about-dots>
                         </div>
