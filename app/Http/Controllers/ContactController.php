@@ -19,7 +19,7 @@ class ContactController extends Controller
         ]);
 
         // Send Email
-        Mail::to('marcopgordillo@gmail.com')
+        Mail::to(config('mail.from.address'))
             ->send(new ContactMail(
                 name: $validatedData['name'],
                 email: $validatedData['email'],
