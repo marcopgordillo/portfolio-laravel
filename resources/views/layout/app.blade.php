@@ -19,6 +19,11 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet"/>
+
+    <!-- Scripts -->
+    <script defer src="{{ mix('js/app.js') }}"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.9.5/dist/cdn.min.js"></script>
+    <script defer src="https://apis.google.com/js/platform.js"></script>
 </head>
 <body class="antialiased text-gray-800 dark:text-gray-200">
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
@@ -28,7 +33,5 @@
             {{ $slot }}
         <x-layout.footer></x-layout.footer>
     </div>
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
