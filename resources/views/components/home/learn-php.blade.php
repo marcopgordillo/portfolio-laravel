@@ -8,10 +8,20 @@
             PHP For FREE
         </h2>
     </x-slot>
-    <x-button-link href="https://github.com/thecodeholic/php-developer-roadmap" variant="dark" class="mr-3" target="_blank">
+    <x-button-link
+        href="https://github.com/thecodeholic/php-developer-roadmap"
+        variant="dark"
+        class="mr-3 w-full mb-3 text-center lg:w-auto"
+        target="_blank"
+    >
         View on Github
     </x-button-link>
-    <x-button-link href="https://youtu.be/r9ndOH0tyfA" variant="red" target="_blank">
+    <x-button-link
+        href="https://youtu.be/r9ndOH0tyfA"
+        variant="red"
+        class="mr-3 w-full mb-3 text-center lg:w-auto"
+        target="_blank"
+    >
         Watch on YouTube
     </x-button-link>
 </x-call-to-action>
