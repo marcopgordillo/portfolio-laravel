@@ -652,6 +652,9 @@ input#checkboxLabelFive:checked ~ .box {
 .z-50 {
   z-index: 50;
 }
+.z-20 {
+  z-index: 20;
+}
 .my-\[6px\] {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -715,6 +718,12 @@ input#checkboxLabelFive:checked ~ .box {
 .-mt-4 {
   margin-top: -1rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
 .block {
   display: block;
 }
@@ -729,6 +738,9 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .hidden {
   display: none;
+}
+.aspect-video {
+  aspect-ratio: 16 / 9;
 }
 .h-8 {
   height: 2rem;
@@ -747,6 +759,18 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .h-\[260px\] {
   height: 260px;
+}
+.h-full {
+  height: 100%;
+}
+.h-20 {
+  height: 5rem;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-\[320px\] {
+  height: 320px;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -769,6 +793,12 @@ input#checkboxLabelFive:checked ~ .box {
 .w-10 {
   width: 2.5rem;
 }
+.w-20 {
+  width: 5rem;
+}
+.w-11\/12 {
+  width: 91.666667%;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -784,6 +814,27 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@-webkit-keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.animate-ping {
+  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 .flex-wrap {
   flex-wrap: wrap;
@@ -880,12 +931,35 @@ input#checkboxLabelFive:checked ~ .box {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 43 54 / var(--tw-bg-opacity));
+}
+.bg-opacity-0 {
+  --tw-bg-opacity: 0;
+}
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
+}
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
+}
 .fill-current {
   fill: currentColor;
 }
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -960,6 +1034,9 @@ input#checkboxLabelFive:checked ~ .box {
 .pb-12 {
   padding-bottom: 3rem;
 }
+.pb-16 {
+  padding-bottom: 4rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1007,6 +1084,9 @@ input#checkboxLabelFive:checked ~ .box {
 }
 .leading-tight {
   line-height: 1.25;
+}
+.leading-relaxed {
+  line-height: 1.625;
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1091,8 +1171,14 @@ input#checkboxLabelFive:checked ~ .box {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.delay-300 {
+  transition-delay: 300ms;
+}
 .duration-100 {
   transition-duration: 100ms;
+}
+.duration-1000 {
+  transition-duration: 1000ms;
 }
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
@@ -1273,6 +1359,11 @@ input#checkboxLabelFive:checked ~ .box {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 43 54 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-opacity-80:hover {
   --tw-bg-opacity: 0.8;
 }
@@ -1401,8 +1492,20 @@ input#checkboxLabelFive:checked ~ .box {
 
 @media (min-width: 720px) {
 
+  .md\:h-\[70px\] {
+    height: 70px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-\[70px\] {
+    width: 70px;
+  }
+
+  .md\:w-10\/12 {
+    width: 83.333333%;
   }
 
   .md\:p-\[70px\] {
@@ -1582,6 +1685,14 @@ input#checkboxLabelFive:checked ~ .box {
     width: 33.333333%;
   }
 
+  .xl\:w-8\/12 {
+    width: 66.666667%;
+  }
+
+  .xl\:p-7 {
+    padding: 1.75rem;
+  }
+
   .xl\:px-9 {
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -1593,6 +1704,13 @@ input#checkboxLabelFive:checked ~ .box {
 
   .xl\:text-\[42px\] {
     font-size: 42px;
+  }
+}
+
+@media (min-width: 1320px) {
+
+  .\32xl\:p-9 {
+    padding: 2.25rem;
   }
 }
 
