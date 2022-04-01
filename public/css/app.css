@@ -757,6 +757,9 @@ input#checkboxLabelFive:checked ~ .box {
 .inline-flex {
   display: inline-flex;
 }
+.table {
+  display: table;
+}
 .hidden {
   display: none;
 }
