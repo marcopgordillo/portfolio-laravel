@@ -17,7 +17,7 @@ module.exports = plugin(
       },
 
       [`body`]: {
-        fontFamily: `"Roboto Mono", sans-serif`,
+        fontFamily: `"Roboto Mono", monospace`,
       },
 
       [`.navbarTogglerActive > span:nth-child(1)`]: {

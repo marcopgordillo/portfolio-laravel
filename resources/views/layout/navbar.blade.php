@@ -12,7 +12,7 @@
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
             <div class="px-4 w-60 max-w-full">
-                <a href="{{ route('welcome') }}" class="w-full flex items-center py-2">
+                <a href="{{ route('home') }}" class="w-full flex items-center py-2">
                     <img
                         src="{{ asset('img/logo.png') }}"
                         alt="logo"

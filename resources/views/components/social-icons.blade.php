@@ -3,8 +3,8 @@
         href="https://www.facebook.com/thecodeholic"
         target="_blank"
         class="
-             w-8
-             h-8
+             w-10
+             h-10
              flex
              items-center
              justify-center
@@ -41,8 +41,8 @@
         href="https://twitter.com/thecodeholic"
         target="_blank"
         class="
-             w-8
-             h-8
+             w-10
+             h-10
              flex
              items-center
              justify-center
@@ -79,8 +79,8 @@
         href="https://www.youtube.com/thecodeholic"
         target="_blank"
         class="
-             w-8
-             h-8
+             w-10
+             h-10
              flex
              items-center
              justify-center
@@ -117,8 +117,8 @@
         href="https://linkedin.com/in/thecodeholic"
         target="_blank"
         class="
-             w-8
-             h-8
+             w-10
+             h-10
              flex
              items-center
              justify-center
