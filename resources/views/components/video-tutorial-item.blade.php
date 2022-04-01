@@ -14,6 +14,7 @@
                             src="https://i.ytimg.com/vi/{{ $videoId }}/original.jpg"
                             alt="image"
                             class="w-full h-full object-center object-cover rounded-lg"
+                            loading="lazy"
                         />
                         <!-- /Thumbnail -->
                     </div>

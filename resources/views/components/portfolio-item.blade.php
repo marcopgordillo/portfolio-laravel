@@ -10,6 +10,7 @@
                     src="{{ $image }}"
                     alt="portfolio"
                     class="w-full h-[260px] object-cover"
+                    loading="lazy"
                 />
             </div>
         </a>

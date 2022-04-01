@@ -41,6 +41,7 @@
                             src="{{ url('/img/me_hero.png') }}"
                             alt="hero"
                             class="max-w-full lg:ml-auto"
+                            loading="lazy"
                         />
                         <span class="absolute -left-8 -bottom-8 z-[-1]">
                           <svg

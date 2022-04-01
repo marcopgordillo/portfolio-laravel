@@ -17,11 +17,13 @@
                         src="{{ asset('img/logo.png') }}"
                         alt="logo"
                         class="w-[48px] lg:w-[64px] inline-block dark:hidden"
+                        loading="lazy"
                     />
                     <img
                         src="{{ asset('img/logo-white.png') }}"
                         alt="logo"
                         class="w-[48px] lg:w-[64px] hidden dark:inline-block"
+                        loading="lazy"
                     />
                     <span class="text-xl xl:text-2xl font-bold text-[#0c7187] dark:text-white">TheCodeholic</span>
                 </a>
