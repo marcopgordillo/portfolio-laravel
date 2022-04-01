@@ -52,12 +52,14 @@
             <!-- Video -->
             <div
                 x-show="videoOpen"
+                x-cloak
                 x-transition
                 class="fixed top-0 left-0 w-full h-screen flex items-center justify-center z-50 bg-black bg-opacity-70"
             >
                 <div @click.outside="videoOpen = false; url = ''" class="w-11/12 md:w-10/12 xl:w-8/12 mx-auto bg-white">
                     <iframe
                         class="w-full aspect-video"
+                        x-cloak
                         x-bind:src="url"
                     >
                     </iframe>

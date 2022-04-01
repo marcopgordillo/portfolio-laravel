@@ -36,7 +36,8 @@
                         x-bind:class="navbarOpen && 'navbarTogglerActive' "
                     ></x-layout.navbar-hamburger>
                     <nav
-                        x-bind:class="!navbarOpen && 'hidden'"
+                        x-bind:class="{hidden: !navbarOpen}"
+                        x-cloak
                         id="navbarCollapse"
                         @click.outside="close($refs.button)"
                         class="absolute right-0 top-full bg-white py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-slate-900 dark:text-gray-300 lg:px-0 lg:max-w-full lg:w-full lg:right-4 lg:block lg:static lg:shadow-none"
